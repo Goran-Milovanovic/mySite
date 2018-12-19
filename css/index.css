@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+  background: #d8f8ff !important;
+}
+
+
+
+.container {
+  background: white;
+  padding: 0px !important;
+}
+
+.nav-link {
+  color: grey !important;
+}
+
+.nav-link:hover {
+  color: #e81010 !important;
+}
+
+
+.probaa {
+  /*border: 1px solid black !important;*/
+  background: #d8f8ff !important;
+  overflow: hidden !important;
+}
+
+
+.textsalon p{ text-align: justify;
+padding: 30px;
+margin-top: -35px;
+/*border: 1px solid black;*/
+}
+.asd {
+  height: 9px;
+/*border: 1px solid black;*/
+position: relative;
+}
+
+.fixed-top {
+  position: relative !important;
+}
+
+.a{
+  border: 1px solid black;
+}
+
+.omot{
+text-decoration: none !important;
+}
+
+@media (max-width:960px)  {
+.q {
+font-size: 16px;
+
+}
+}
+
+@media(max-width:992px) {
+.text_velicina {
+font-size: 13px;
+}
+}
+
+@media(max-width:400px) {
+.navbar-brand{
+width:250px;
+
+}
+}
+
+
+.boja:hover {
+
+transition: .5s linear;
+transform: scale(.9);
+background: #b3babc;
+}
+
+.cena{
+  font-size: 12px;
+  opacity: .8;
+  color: grey;
+}
+.cena:hover{
+  opacity: 1;
+}
+.usluge {
+    color: #444;
+}
+.frizera{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.lista {
+  list-style-type: none;
+  display: flex;
+}
+
+.fa  {
+    margin-left: 13px;
+    transition: .5s;
+}
+
+.instagram {
+  color: #ff6144;
+}
+
+.facebook:hover {
+ transform: rotate(360deg);
+  color: blue;
+}
+
+.instagram:hover {
+ transform: rotate(360deg);
+  color: red;
+}

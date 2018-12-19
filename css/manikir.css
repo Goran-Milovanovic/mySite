@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+  background: #d8f8ff !important;
+}
+
+
+
+.container {
+  background: white;
+  padding: 0px !important;
+}
+
+
+.nav-link {
+  color: grey !important;
+}
+.nav-link:hover {
+  color: #e81010 !important;
+}
+
+.asd {
+  height: 9px;
+/*border: 1px solid black;*/
+position: relative;
+}
+
+.fixed-top {
+  position: relative !important;
+}
+
+@media (max-width:960px)  {
+.q {
+font-size: 16px;
+
+}
+}
+/*Heder do ovde*/
+
+.faboja {
+  color: #C490E7;
+}
+.color{
+  color: #8F0BE8;
+}
+.cena {
+  font-weight: 500;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 3px 3px 20px rgba(74, 74, 76, 0.6);
+}
+
+.imgbox img {
+  transition: 1s;
+
+}
+ .box:hover .imgbox img {
+   transform: scale(1.1);
+ }
+
+
+@media(max-width:576px) {
+.text_velicina {
+font-size: 13px;
+}
+}
+
+
+/*FUTEER */
+.lista {
+  list-style-type: none;
+  display: flex;
+}
+
+.fa  {
+    margin-left: 13px;
+    transition: .5s;
+}
+
+.instagram {
+  color: #ff6144;
+}
+
+.facebook:hover {
+ transform: rotate(360deg);
+  color: blue;
+}
+
+.instagram:hover {
+ transform: rotate(360deg);
+  color: red;
+}
